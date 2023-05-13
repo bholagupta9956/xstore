@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Parisienne&family=Poppins:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.body{
+  font-family: 'Poppins', sans-serif !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.MuiInputBase-root.MuiInputBase-colorPrimary.css-16c50h-MuiInputBase-root-MuiTablePagination-select {
+  margin-top: -10px !important;
+}
+.css-78c6dr-MuiToolbar-root-MuiTablePagination-toolbar .MuiTablePagination-actions {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin-left: 20px;
+  margin-top: -17px !important;
+}
+
+td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium.tss-1qtl85h-MUIDataTableBodyCell-root.tss-1y3wvy9-MUIDataTableBodyCell-stackedParent.tss-iwylj0-MUIDataTableBodyCell-responsiveStackedSmallParent.css-1ex1afd-MuiTableCell-root {
+  padding-left: 0px !important;
+}
+
+td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium.tss-1qtl85h-MUIDataTableBodyCell-root.tss-1y3wvy9-MUIDataTableBodyCell-stackedParent.tss-iwylj0-MUIDataTableBodyCell-responsiveStackedSmallParent.css-1ex1afd-MuiTableCell-root {
+  padding-left: 0px;
+}
+
+.tss-iwylj0-MUIDataTableBodyCell-responsiveStackedSmallParent {
+  padding-left: 0px;
+}
+.tss-iwylj0-MUIDataTableBodyCell-responsiveStackedSmallParent {
+  padding-left: 0px;
+}
+.MuiTablePagination-selectLabel .css-pdct74-MuiTablePagination-selectLabel {
+  margin-top: 0;
+  margin-bottom: 0px !important;
+}
+.css-pdct74-MuiTablePagination-selectLabel {
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+p#\:rj\: {
+  margin-bottom: 0px !important;
+  
+}
+
+table tbody td{
+  padding-left: 0px !important;
+}
+
+
+.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.tss-tlx3x1-MUIDataTableToolbar-root.css-hyum1k-MuiToolbar-root {
+  display: flex !important;
+}
+
+.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.tss-tlx3x1-MUIDataTableToolbar-root.css-i6s8oy {
+  border: 2px solid green !important;
+  height: 450px !important;
+  width: 200px !important;
+  display: flex !important;
+}

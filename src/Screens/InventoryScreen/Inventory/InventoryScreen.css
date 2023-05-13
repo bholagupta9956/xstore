@@ -1,0 +1,22 @@
+.inveScren{
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.inveBox{
+    max-height: 90%;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    padding: auto;
+    display: flex;
+    margin: auto;
+}
+
+@media (max-width : 768px)  and (max-width: 1024px){
+   .inveScren{
+    height: 100vh;
+
+   }
+}

@@ -1,0 +1,16 @@
+.PVMain{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.pvmleft{
+    height: 100vh;
+    width:15%;
+    margin-left: -1%;
+    float: left;
+}
+.pvmRight{
+    height: 100vh;
+    width: 83%;
+    float: left;
+}

@@ -1,0 +1,303 @@
+.AddDiffered_TypeCon{
+    width: 100%;
+    border: 1px solid #cccc;
+    margin-top:10px;
+    padding: 25px 40px;
+    padding-bottom: 20px;
+}
+.Diff_Type{
+    width: 100%;
+    display: flex;
+}
+.Diff_Type p {
+    width: 200px;
+    font-size: 15px;
+    color: #6a6a6a;
+    font-weight:500;
+    margin-bottom: 0px;
+}
+.Diff_Type input{
+    width: 600px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #cccc;
+}
+.DiffTypetextbox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.DiffTypeparent{
+    width: 100%;
+}
+.Diff_parentcat{
+    display: flex;
+    align-items: center;
+}
+.Diff_parentcat p{
+    width: 200px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    color: #6a6a6a;
+}
+.Diff_parentcat label{
+    width: 200px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    color: #6a6a6a;
+}
+.Diff_parentcat input{
+    width: 20px;
+    height: 15px;
+
+}
+.Diff_parentcat select{
+    outline:none;
+    border: none;
+    width: 600px;
+    border-bottom: 1px solid #cccc;
+}
+.assettypebox{
+    width: 30%;
+    border-left: 1px solid #cccc;
+    padding: 20px 25px;
+    margin-left: 30px;
+}
+
+.Diff_details{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+}
+.Diff_details1{
+    width: 50%;
+}
+.Diff_details1 p{
+    font-size: 25px;
+    color: #6a6a6a;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.Diff_text{
+    display: flex;
+    align-items: center;
+
+}
+.Diff_text p {
+    width: 315px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.Diff_text select{
+    width: 400px;
+    border: none;
+    outline:"none";
+    border-bottom: 1px solid #cccc;
+}
+.Diff_details2{
+    width: 50%;
+    margin-left: 30px;
+}
+.Diff_details2 p{
+    font-size: 25px;
+    color: #666666;
+    font-weight: 400;
+    margin-bottom: 0px; 
+    margin-top: 10px;
+}
+.diff_radio{
+    display: flex;
+    align-items: center;
+}
+.diff_radio p{
+    width: 300px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+/* .diff_radio input{
+    width: 16px;
+    margin-left: 20px;
+    height: 15px;
+
+} */
+.diff_radio label{
+    margin-left: 5px;
+    color: #666666;
+    font-size: 16px;
+}
+.diff_text2{
+    display: flex;
+    align-items: center;
+}
+.diff_text2 p{
+    width: 300px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.diff_text2 input{
+    width: 350px;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid #cccc  ;
+}
+.Diff_AddiDepri{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Diff_Additional{
+    width: 50%;
+}
+.Diff_Additional p{
+    font-size: 25px;
+    color: #6a6a6a;
+    font-weight: 400;
+    margin-bottom: 0px; 
+    margin-top: 10px;
+}
+.Diff_typecheckbox{
+    display: flex;
+    align-items: center;
+}
+.Diff_typecheckbox label{
+    width: 300px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color:#6a6a6a
+}
+/* .Diff_typecheckbox input{
+    width: 20px;
+    height: 15px;
+
+} */
+.Diff_typeselect{
+    display: flex;
+    align-items: center;
+}
+.Diff_typeselect p{
+    width: 315px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: #6a6a6a;
+}
+.Diff_typeselect select{
+    outline: none;
+    border: none;
+    width: 350px;
+    border-bottom: 1px solid #cccc;
+}
+.Dif_Depreciation{
+    width: 50%;
+    margin-left: 40px;
+}
+.Dif_Depreciation p{
+    font-size: 25px;
+    color: #6a6a6a;
+    font-weight: 400;
+}
+.dif_distradio{
+    display: flex;
+    align-items: center; 
+}
+.dif_distradio p{
+    width: 300px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+/* .dif_distradio input{
+    width: 16px;
+    margin-left: 20px;
+} */
+.dif_distradio label{
+    margin-left: 10px;
+    color: #6a6a6a;
+    font-size: 16px;
+}
+.deff_checkbox{
+display: flex;
+align-items: center;
+}
+.deff_checkbox label {
+    width: 300px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: #6a6a6a;
+}
+/* .deff_checkbox input{
+    width: 50px;
+} */
+
+@media (min-width:768px) and (max-width:1024px) {
+    .Diff_Type p {
+        width: 300px;
+    }
+    .Diff_parentcat p {
+        width: 300px;
+    }
+    .Diff_parentcat label {
+        width: 250px;
+    }
+    .Diff_details{
+        flex-direction: column;
+    }
+    .Diff_details1{
+        width: 100%;
+    }
+    .Diff_details2{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .Diff_AddiDepri{
+        flex-direction: column;
+    }
+    .Diff_Additional {
+        width: 100%;
+    }
+    .Dif_Depreciation {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .diff_radio p{
+        width: 300px;
+    }
+    .diff_radio input {
+        margin-left: 0px;
+    }
+    .diff_text2 p{
+        width: 300px;
+    }
+    .Diff_typecheckbox label {
+        width: 300px;
+    }
+    .Diff_typeselect p{
+        width: 300px;
+    }
+    .dif_distradio p{
+        width: 300px;
+    }
+    .deff_checkbox label {
+        width: 300px;
+    }
+    .dif_distradio input {
+        margin-left: 0px;
+    }
+}

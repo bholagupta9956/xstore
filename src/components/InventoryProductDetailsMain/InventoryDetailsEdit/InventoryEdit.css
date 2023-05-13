@@ -1,0 +1,121 @@
+.InventoryEditContainer{
+    width: 100%;
+    padding-top: 25px; 
+    display: flex;
+    padding-bottom: 40px;
+ }
+ .Inventory1Edit{
+     width: 50%;
+     margin-left: 37px;
+ }
+ .OperatinEdit h5{
+     color: #6a666a;
+     font-size: 25px;
+     font-weight: 400; 
+ }
+ 
+ .Editcontent1{
+     display: flex;
+     align-items: center;
+     margin-bottom: 1px;
+ }
+ .Editcontent1 p{
+     width: 150px;
+ color: #6a666a;
+    font-size: 14px;
+    font-weight: 600;
+     margin-bottom: 0px;
+ }
+ .Editcontent1 input{
+     width: 20px;
+ }
+ .Editcontent1 label{
+     color: #666666;
+     font-size: 14px;
+     font-weight: 600px;
+     margin-bottom: 4px;
+     margin-left: 5px;
+ }
+ .Editcontent1 span{
+     color: #6a666a;
+     font-size: 16px;
+ }
+ .Editcontent2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1px;
+ }
+ .Editcontent2 p{
+    width: 150px;
+     color: #6a666a;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.Editcontent2 input{
+    width: 250px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+}
+.Editcontent2 label{
+    color: #6a666a;
+    font-size: 14px;
+    font-weight: 500px;
+    margin-bottom: 4px;
+    margin-left: 5px;
+}
+.Editcontent2 span{
+    color: #6a666a;
+    font-size: 16px;
+}
+ .EditLogistics h5{
+     color: #6a666a;
+     margin-top: 30px;
+     font-size: 25px;
+     font-weight: 400; 
+ }
+ .EditInventory2{
+     width: 50%;
+ }
+ .EditInventory2 h5{
+     color:#6a666a;
+     margin-top: 30px;
+     font-size: 23px;
+     font-weight: 400; 
+ }
+ .EditDescription h5{
+    color:#6a666a;
+    margin-top: 45px;
+    font-size: 25px;
+    font-weight: 400; 
+ }
+
+ .EditDescription textarea{
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    width:150% ;
+    outline: none;
+ }
+ .Editcontent1 select{
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    width: 450px;
+    outline: none;
+    color: #6a666a;
+ }
+
+ .ediContList{
+    display: flex;
+    flex-direction: column;
+ }
+
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .EditDescription textarea {
+    
+        width: 179%;
+       
+    }
+}

@@ -1,0 +1,81 @@
+.VendorsContainer {
+    height: 100px;
+    /* width: 314px; */
+    margin: 20px 30px;
+    /* margin-left: 60px;
+    margin-top: 10px; */
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    background-color: #fff;
+    cursor: pointer;
+    position: relative;
+  }
+  .VendorsCon{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .VendorsImg {
+    height: 100px;
+    width: 10%;
+  }
+  
+  .VendorsImg img {
+     width: 65px;
+  padding: 20px 4px;
+  }
+  
+  .VendorsContent {
+    width: 75%;
+    margin: 10px 10px;
+    padding-left: 15px;
+  }
+  
+  .VendorsContent h6 {
+    font-size: 15px;
+    color: #000;
+    margin-top: 5px;
+    margin-bottom: 1%;
+    margin-left: 10px;
+  }
+  
+  .VendorsContent p {
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 0%;
+    margin-left: 10px;
+  }
+  .deleteicon {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    z-index: 10;
+  }
+  .vendor_Container >div {
+      width: 33.33%;
+  }
+  .vendor_Container .VendorsContainer {
+      width: 100%;
+      padding: 10px;
+  }
+  .vendor_Container >div {
+      width: 30%;
+      margin: 1%;
+  }
+  @media only screen and (max-width: 1000px) {
+    .VendorsContainer {
+      width: 303px;
+      margin-left: 21px;
+    }
+  }
+  @media only screen and (max-width: 820px) {
+    .VendorsContainer {
+      width: 230px;
+      margin-left: 15px;
+    }
+    .VendorsContent {
+      width: 66%;
+    }
+  }
+  

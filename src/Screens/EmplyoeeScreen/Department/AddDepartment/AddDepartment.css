@@ -1,0 +1,83 @@
+.Container_department{
+    width: 98%;
+    border: 1px solid #cccc;
+    padding-bottom:10%;
+    padding-top: 30px;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin-top: 40px;
+}
+.content_department
+{
+    width: 100%;
+    display: flex;
+    padding: 15px 20px;
+}
+.department{
+    width: 100%;
+}
+.text_department{
+    display: flex;
+   align-items: center;
+}
+.department_1{
+    display: flex;
+   align-items: center;
+}
+.text_department p {
+    width: 200px;
+    font-size: 15px;
+    color: #666666;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+.department_1 p {
+    width: 200px;
+    font-size: 15px;
+    color: #666666;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+.text_department input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #cccccc;
+    width: 500px !important;
+    margin-bottom: 10px;
+}
+.department_1 input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #cccccc;
+    width: 500px;
+    margin-bottom: 10px;
+}
+.text_department select{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #cccc;
+    width: 500px;
+
+  
+}
+.department_1 select{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #cccc;
+    width: 500px;
+  
+}
+
+.type_department{
+    width: 50%;
+}
+
+
+
+@media (min-width:768px) and (max-width: 1024px){
+    .content_department
+    {
+       display: flex;
+       flex-direction: column;
+    }
+}

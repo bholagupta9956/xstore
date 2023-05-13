@@ -1,0 +1,48 @@
+.varBox {
+    display: flex;
+    width: 100%;
+    padding: 6px 0px;
+    align-items: center;
+}
+
+.varBox h6{
+    width: 150px;
+}
+
+.varBox select{
+    width: 500px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #cccc;
+}
+
+.varCont {
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.var_btns{
+    width: 100px;
+    padding: 6px 15px;
+    border-radius: 2px;
+    background: #0077b0;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px)
+{
+    /* .barcode_maincon {
+       
+        margin-left: -15%;
+       
+    } */
+/* .modal.show .modal-dialog {
+    transform: none;
+    margin: 0px;
+    left: -55px;
+} */
+}

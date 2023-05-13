@@ -1,0 +1,140 @@
+.TaxNameCon{
+    width: 98%;
+    border: 1px solid #cccc;
+    padding-bottom:10%;
+    /* padding-top: 30px; */
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin-top: 40px;
+
+}
+.TaxNamemain{
+    width: 100%;
+    display: flex;
+    padding: 10px 20px;
+}
+.TaxNamecontent{
+    width: 50%;
+}
+.AddTaxinput{
+    display: flex;
+    align-items: center;
+}
+.AddTaxinput p{
+    width: 200px;
+    font-size: 15px;
+    color: #666666;
+    font-weight: 600;
+    margin-bottom: 5px;
+
+}
+.AddTaxinput input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #cccccc;
+    width: 400px;
+}
+.AddTaxinput select{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    width: 400px;  
+}
+.TaxNamecontent2{
+    width: 50%;
+    margin-top: 15px;
+}
+.AddTaxammount{
+    display: flex;
+    align-items: center;
+}
+.AddTaxammount p{
+    width: 200px;
+    font-size: 15px;
+    color: #666666;
+    font-weight: 600;
+    margin-bottom: 7px; 
+}
+.AddTaxammount input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    width: 400px;
+}
+.TaxAdvance{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    padding: 10px 20px;
+}
+.Taxadvance1{
+    width: 50%;
+}
+.TaxAdvance h3{
+    font-size: 25px;
+    color: #666666;
+    font-weight: 400;
+}
+.Advanceinput{
+    display: flex;
+    align-items: center;
+}
+.Advanceinput p{
+    width: 200px;
+    font-size: 15px;
+    color: #666666;
+    font-weight: 600;
+    margin-bottom: 7px; 
+}
+.Advanceinput input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #cccc;
+    width: 400px;
+}
+.Advanceinput select{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #cccccc;
+    width: 400px; 
+}
+.Advancecheckbox{
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+}
+.Advancecheckbox label{
+    width: 200px;
+    font-size: 15px;
+    color: #666666;
+    font-weight: 600;
+    margin-bottom: 7px; 
+}
+.Advancecheckbox input{
+    width: 20px;
+}
+.Taxadvance2 {
+    width: 50%;
+    margin-top: 40px;
+}
+
+@media  screen and (max-width:1000px) {
+    
+.TaxNamemain{
+    display: flex;
+    flex-direction: column;
+}
+.TaxNamecontent2{
+    width: 100%;
+}
+.TaxNamecontent{
+    width: 100%;
+}
+.Taxadvance1 {
+    width: 100%;
+}
+.TaxAdvance{
+    display: flex;
+    flex-direction: column;
+}
+}

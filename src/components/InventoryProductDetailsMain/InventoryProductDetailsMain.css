@@ -1,0 +1,295 @@
+.MainContainer{
+    width: 100%;
+    background-color: #f3f5f7;
+    padding: 10px 10px;
+    flex: 1;
+    /* height: 500px;
+    overflow-y: scroll; */
+   padding-right: 12px;
+}
+.Product_Container{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-top: 5px;
+    background-color: #fff;
+    border: 1px solid #cdd3d9;
+}
+
+.ContainerHeader{
+    width: 100%;
+    border-bottom: 1px solid #cdd3d9;
+    display: flex;
+    cursor: pointer;
+    justify-content: flex-end;
+}
+.div1{
+    width: 10px;
+    border-right: 1px solid #cdd3d9;
+}
+.div2{
+    /* width:15%; */
+    display: flex;
+    padding: 2px 4px;
+    border-left: 1px solid #cdd3d9;
+}
+.div2:hover{
+    background-color: #f3efef;
+}
+.text_units p{
+    color: #1669a2;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: -7px;
+    margin-left: 15px;
+}
+.text_units span{
+  font-size: 15px;
+  padding-left: 20px;
+  color: #6f6f6f;
+}
+.text2 p{
+    color:#6f6f6f;
+    font-size: 18px;
+    margin-left: 19px;
+    margin-bottom: -7px;
+    margin-top: 8px;
+}
+.detailsbox{
+    width: 100%;
+    position: relative;
+}
+.cameraimg {
+    position: absolute;
+    right: 50px;
+    top: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.cameraimg img{
+    height: 100px;
+    width: 100px;
+    border: 1px solid #cccc;
+    cursor: pointer;
+    /* margin-left: 40%; */
+}
+.cameraimg input{
+    margin-top: 5px;
+    width: 200px;
+}
+.detailsheading{
+    width: 50%;
+    
+}
+.detailsheading p{
+    font-size: 35px;
+    margin-left: 35px;
+    margin-top: 18px; 
+}
+.detailsinput{
+    margin-left: 35px;
+    margin-top: 8px;
+}
+.detailsinput label{
+    font-size: 16px;
+    color: #6a666a;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.detailsinput input{
+    width: 24px;
+    border-bottom:1px solid #beb8b8;
+}
+.detailsbtn{
+    margin-left: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.detailslink{
+    border: 1px solid #beb8b8;
+    border-bottom: none;
+}
+.navLinkActive{
+    background-color: #0077b0 !important;
+    font-size: 15px;
+    color: white !important;
+}
+.nav-link:active{
+    color: #fff !important;
+}
+.navLinkDeactive a.nav-link{
+    color:#6f6f6f;
+    font-size: 15px;
+}
+.detailslink a.nav-link {
+    color:#6f6f6f;
+    font-size: 15px;
+}
+.nav-link {
+    color: #fff;
+}
+
+.proin{
+    font-size: 30px;
+    margin-left: 35px;
+    width: 400px;
+    margin-top: 18px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #6666;
+}
+.nav-tabs .nav-link{
+    border: none !important;
+}
+input[type="checkbox"][readonly] {
+    pointer-events: none;
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px)
+{
+    .MainContainer{
+     height: auto;
+    }
+
+   .div2 {
+    display: flex;
+    padding: 2px 12px;
+    border-left: 1px solid #cdd3d9;
+}
+   .hello{
+    size:20px;
+   }
+   .div1{
+    display: none !important;
+   }
+   .text p{
+    font-size: 14px;
+   }
+   .text span {
+    font-size: 13px !important;
+    padding-left: 20px;
+}
+.text2 p {
+    font-size: 15px;
+}
+.firstcontent3 span {
+    font-size: 13px;
+    margin-left: 13px;
+}
+.firstcontent3 p {
+    font-size: 14px;
+    width: 150px;
+}
+.detailsheading p {
+    font-size: 30px;
+}
+.detailsinput label {
+    font-size: 14px;
+}
+
+.detailsinput input {
+    width: 20px;
+}
+
+}
+
+
+  @media (min-width: 820px) and (max-width: 1180px)
+{
+    .MainContainer{
+        height: auto;
+    }
+   .div2 {
+    display: flex;
+    padding: 2px 12px;
+    border-left: 1px solid #cdd3d9;
+}
+   .hello{
+    size:20px;
+   }
+   .div1{
+    display: none !important;
+   }
+   .text p{
+    font-size: 14px;
+   }
+   .text span {
+    font-size: 13px !important;
+    padding-left: 20px;
+}
+.text2 p {
+    font-size: 15px;
+}
+.firstcontent3 span {
+    font-size: 13px;
+    margin-left: 13px;
+}
+.firstcontent3 p {
+    font-size: 14px;
+    width: 150px;
+}
+.detailsheading p {
+    font-size: 30px;
+    color: #6a666a;
+}
+.detailsinput label {
+    font-size: 14px;
+}
+
+.detailsinput input {
+    width: 20px;
+}
+
+}
+
+
+
+  @media (min-width: 912px) and (max-width: 1368px)
+{
+    .MainContainer{
+        height: auto;
+    }
+   .div2 {
+    display: flex;
+    padding: 2px 12px;
+    border-left: 1px solid #cdd3d9;
+}
+   .hello{
+    size:20px;
+   }
+   .div1{
+    display: none !important;
+   }
+   .text p{
+    font-size: 14px;
+   }
+   .text span {
+    font-size: 13px !important;
+    padding-left: 20px;
+}
+.text2 p {
+    font-size: 15px;
+}
+.firstcontent3 span {
+    font-size: 13px;
+    margin-left: 13px;
+}
+.firstcontent3 p {
+    font-size: 14px;
+    width: 150px;
+}
+.detailsheading p {
+    font-size: 30px;
+    color: #6a666a;
+}
+.detailsinput label {
+    font-size: 14px;
+}
+
+.detailsinput input {
+    width: 20px;
+}
+
+}
+
+

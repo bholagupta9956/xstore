@@ -1,0 +1,41 @@
+.Container_Hdepartment {
+  width: 98%;
+  border: 1px solid #cccc;
+  padding-bottom: 10%;
+  padding-top: 30px;
+  margin: auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  margin-top: 40px;
+}
+.content_Hdepartment {
+  width: 100%;
+  display: flex;
+  padding: 15px 20px;
+}
+.Hdepartment {
+  width: 100%;
+}
+.head_department {
+  display: flex;
+  align-items: center;
+}
+.operation_department_1 {
+  display: flex;
+  align-items: center;
+}
+.head_department p {
+  width: 200px;
+  font-size: 15px;
+  color: #666666;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.head_department input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #cccccc;
+  width: 500px;
+  margin-bottom: 10px;
+}

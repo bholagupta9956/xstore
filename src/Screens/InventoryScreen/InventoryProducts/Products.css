@@ -1,0 +1,51 @@
+.ProductsMainContainer{
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.ProductContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 98%;
+}
+
+.ProductSidebar{
+    margin-left: 0px !important;
+    height: 100vh;
+    margin-left: 0px !important;
+    overflow-y: scroll;
+}
+
+.Product33Card{
+    width: 85% ;
+    height: 80%;
+    background-color: #eff1f3;
+    overflow-y: scroll;
+}
+
+.productcardcont{
+    display : flex ;
+    flex-wrap: wrap ;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+    .ProductsMainContainer{
+      background-color: #eff1f3;
+    }
+
+    .ProductSidebar{
+       width : 32% ;
+       background-color: #fff;
+    }
+
+    .Product2Card{
+        margin: 0px 25px;
+    }
+
+    
+}
+
+

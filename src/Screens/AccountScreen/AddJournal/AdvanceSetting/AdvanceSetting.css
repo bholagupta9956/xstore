@@ -1,0 +1,50 @@
+.AdvanceSettingCon{
+    width: 100%;
+    padding: 20px 20px;
+}
+.AdvanceSettingContent p{
+    color: #6a6a6a;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.AdvanceSettingContent span{
+    color: #b7b5c5;
+    font-size: 14px;
+}
+.AdvanceSettinginput{
+    display: flex;
+    align-items: center;
+}
+.AdvanceSettinginput p{
+    width: 200px;
+    font-size: 14px;
+    color: #6a6a6a;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+/* .AdvanceSettinginput select{
+    border: none;
+    outline: none;
+    width: 350px;
+    border-bottom: 1px solid #cccccc;
+} */
+.Advancemultiselect{
+    border-bottom: 1px solid #cccc;
+    width: 400px;
+}
+.AdvanceSettingcheckbox{
+    display: flex;
+    align-items: center;
+}
+.AdvanceSettingcheckbox label{
+    width: 200px;
+    font-size: 15px;
+    color: #666666;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.AdvanceSettingcheckbox input{
+    width: 25px;
+    height: 15px;
+}

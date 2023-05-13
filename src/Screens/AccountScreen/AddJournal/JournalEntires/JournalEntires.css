@@ -1,0 +1,61 @@
+.JournalEntiresCon{
+    width: 100%;
+    display: flex;
+    padding: 20px 20px;
+}
+.journalENtiresFirst{
+  width: 50%;
+}
+.FirstContent{
+    display: flex;
+    align-items: center;
+}
+.FirstContent p{
+    font-size: 14px;
+    color: #6a6a6a;
+    font-weight: 600;
+    width: 150px;
+    margin-bottom: 0px;
+}
+.FirstContent input{
+    width: 400px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #cccc;
+}
+.journalEntiresSecond{
+    width: 50%;
+}
+.SecondContent{
+    display: flex;
+    align-items: center;  
+}
+.SecondContent p{
+    font-size: 14px;
+    color: #6a6a6a;
+    font-weight: 600;
+    width: 200px;
+    margin-top: 0px;
+}
+.SecondContent select{
+    width: 400px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #cccc;   
+}
+@media  screen and (max-width:1000px) {
+    .JournalEntiresCon
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .journalENtiresFirst{
+        width: 100%;
+      }
+    .journalEntiresSecond{
+        width: 100%;
+    }
+    .SecondContent select{
+        width: 350px;
+    }
+}

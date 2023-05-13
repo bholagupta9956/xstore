@@ -1,0 +1,197 @@
+.privateinfo_con{
+   padding: 10px 25px;
+}
+.privateinfo_details{
+    width: 100%;
+    display: flex;
+}
+.privateinfo_contact{
+    width: 50%;
+}
+.privateinfo_contact h3{
+    color: #666666;
+    font-size: 20px;
+    font-weight: 400;
+}
+.private_det{
+    display: flex;
+    align-items: center;
+}
+.private_det p{
+    width: 200px; 
+    color: #666666;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.private_det select{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #cccc;
+    width: 400px;
+}
+.private_det input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #cccc;
+    width: 400px;
+}
+.privateinfo_citizen {
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.privateinfo_citizen h3{
+    color: #666666;
+    font-size: 20px;
+    font-weight: 400;
+}
+.privateinfo_status{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+.private_mat{
+    width: 50%;
+}
+.private_mat h3{
+    color: #666666;
+    font-size: 20px;
+    font-weight: 400;
+}
+.private_dep {
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.private_dep h3{
+    color: #666666;
+    font-size: 20px;
+    font-weight: 400;
+}
+.privateinfo_em{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+}
+.private_emergency{
+    width: 50%;
+}
+.private_emergency h3{
+    color: #666666;
+    font-size: 20px;
+    font-weight: 400;
+}
+.private_work {
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.private_work h3{
+    color: #666666;
+    font-size: 20px;
+    font-weight: 400;
+}
+.privateinfo_enducation{
+    width: 100%;
+    margin-top: 10px;
+}
+.privateinfo_enducation h3{
+    color: #666666;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.private_det .phone_sty{
+    margin-left: 5px;
+}
+
+.private_det .react-tel-input {
+    font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+    position: relative;
+    width: 100%;
+    border: none !important;
+    margin-left: 60px;
+}
+.private_det .react-tel-input .form-control {
+    position: relative;
+    font-size: 14px;
+    letter-spacing: .01rem;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-left: 48px;
+    margin-left: 2px;
+    background: #FFFFFF;
+    border-radius: 0px;
+    line-height: 25px;
+    height: 35px;
+    width: 400px !important;
+    outline: none;
+    border: none !important;
+    border-bottom:1px solid #CCCCCC !important;
+}
+.private_det .react-tel-input .flag-dropdown {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+     background-color: transparent !important;
+    border:none !important;
+    border-radius:0px;
+}
+
+
+.emp_mob input.form-control:focus {
+    box-shadow: none !important;
+    border-bottom: 1px solid #979797 !important;
+}
+.emp_mob input.form-control:active {
+    box-shadow: none !important;
+    border-bottom: 1px solid #979797 !important;
+}
+
+
+@media (min-width:768px) and (max-width:1024px){
+    .employee_maniContainer{
+        height: auto;
+    }
+    .privateinfo_details{
+        display: flex;
+        flex-direction: column;
+    }
+    .privateinfo_contact{
+    width: 100%;
+}
+.privateinfo_citizen {
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 0px;
+}
+.privateinfo_status{
+    display: flex;
+    flex-direction: column;
+}
+.private_mat{
+    width: 100%;
+}
+.private_dep {
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 0px;
+}
+.privateinfo_em{
+    display: flex;
+    flex-direction: column;
+}
+.private_emergency{
+    width: 100%;
+}
+.private_work {
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 0px;
+}
+}

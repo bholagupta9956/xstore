@@ -1,0 +1,111 @@
+.ProductDeatilsFooter{
+    width: 100%;
+    border: 1px solid #dee2e6;
+    background-color:#fff;
+    cursor: pointer;
+    padding-bottom: 5px;
+  
+}
+.productdetails{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 48px;
+}
+.left p{
+    color: #1669a2;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+.log{
+    margin:16px 15px;
+}
+.right{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.right p{
+    color:#1669a2;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.clip{
+    display: flex;
+    align-items: center;
+     
+}
+.sendmessage{
+    width: 90%;
+    border: 1px solid #ccc;
+    padding: 20px 40px;
+    margin: auto;
+    
+}
+.sendmessage i{
+    color: #6666;
+    font-size: 13px;
+}
+.message{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.user{
+    width: 5%;
+}
+.user img{
+    height: 50px;
+    width: 50px;
+}
+.messagebox{
+    width: 95%;
+    border: 1px solid #ccc;
+    padding: 20px 10px;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+.messagebox input{
+    border-bottom: 1px solid #cccc;
+    padding-bottom: 15px;
+
+}
+.sendbtn{
+    background-color:#1669a2;
+    border:none;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin:20px 70px;
+    padding: 8px 20px;
+    font-weight: 600;
+    border-radius: 1px;
+}
+.attachment p{
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.attachment label{
+    text-align: center;
+    color: #1669a2;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1000px){
+ 
+    .left p {
+        font-size: 14px;
+    }
+    .right p {
+        font-size: 14px;
+    }
+}

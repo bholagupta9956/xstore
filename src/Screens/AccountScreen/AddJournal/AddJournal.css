@@ -1,0 +1,58 @@
+.JournalMainCon{
+    width: 100%;
+    padding: 10px 10px;
+}
+.JournalContainer{
+    width: 100%;
+    border: 1px solid #cccc;
+    padding: 10px 20px;
+}
+.JournalContainer p{
+    font-size: 14px;
+    color: #6a6a6a;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.JournalContainer input {
+    width: 500px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #cccc;
+}
+.Journalinput{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.Journalinput p{
+    font-size: 14px;
+    color: #6a6a6a;
+    font-weight: 600;
+    width: 100px;
+    margin-bottom: 5px;
+}
+.Journalinput select{
+    width: 400px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #cccc;
+}
+.detail_journal {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1000px){
+    .Journalinput p{
+        width: 100px;
+    }
+    .Journalinput select{
+        width: 400px;
+    }
+}
+@media screen and (max-width:768px)
+{
+    .JournalContainer input {
+        width: 450px;
+    }
+}

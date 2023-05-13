@@ -1,0 +1,185 @@
+.vendorsPriceListContainer{
+    width: 100%;
+    display: flex;
+    padding: 15px 30px;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.vendorsPart1{
+    width: 50%;
+}
+.vendorstext{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.vendorsPart1 h1{
+    color: #666666;
+    font-size: 25px;
+    font-weight: 400;
+}
+.vendorstext p{
+    color: #666666;
+    margin-bottom: 0px; 
+    font-size: 15px;
+    font-weight: bold;
+    width: 200px;
+}
+.vendorstext select{
+    width: 500px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #cccccc;
+}
+.vendorstext input{
+    width: 500px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #cccccc;  
+}
+.leadtime{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.leadtime p{
+    color: #666666;
+    margin-bottom: 0px; 
+    font-size: 15px;
+    font-weight: bold;
+    width: 185px;  
+}
+.leadtime input{
+    width: 250px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #cccccc;
+}
+.priceListPart2{
+    width: 50%;
+    margin-left: 20px;
+}
+.priceListPart2 h1{
+    color: #666666;
+    font-size: 25px;
+    font-weight: 400;
+}
+.leadtime select{
+    width: 250px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #cccccc;
+    margin-left: 5px;
+}
+.priceListtext{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;  
+}
+.priceListtext p{
+    color: #666666;
+    margin-bottom: 10px; 
+    font-size: 15px;
+    font-weight: bold;
+    width: 150px;  
+
+}
+.priceListtext select{
+    width: 450px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #cccccc;
+}
+.pricetexts{
+    display: flex;
+    align-items: center; 
+}
+.pricetexts p{
+    color: #666666;
+    margin-bottom: 10px; 
+    font-size: 15px;
+    font-weight: bold;
+    width: 150px; 
+}
+.pricetexts input{
+    width: 450px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #cccccc;
+}
+
+.price_currency{
+   display: flex;
+    align-items: center; 
+}
+.price_currency p{
+   color: #666666;
+    margin-bottom: 10px; 
+    font-size: 15px;
+    font-weight: bold;
+    width: 150px; 
+}
+.price_currency input{
+    width: 240px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #cccccc;
+    margin-left: 5px;
+}
+.price_currency select{
+    width: 200px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #cccccc;
+    margin-left: 5px;
+}
+.valid_date{
+    display: flex;
+    align-items: center; 
+}
+
+.valid_date p{
+   color: #666666;
+    margin-bottom: 10px; 
+    font-size: 15px;
+    font-weight: bold;
+    width: 150px; 
+}
+.valid_date input{
+    width: 200px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #cccccc;
+    margin-left: 5px;
+}
+.valid_date select{
+    width: 200px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #cccccc;
+}
+
+.valid_date span{
+    color: #666666;
+    font-size: 15px;
+}
+
+@media (min-width:768px) and (max-width: 1024px){
+    .vendorsPriceListContainer{
+     display: flex;
+     flex-direction: column;
+    }
+    .vendorsPart1 {
+        width: 100%;
+    }
+    .priceListPart2{
+     width: 100%;
+     margin-top: 40px;
+     padding-left: 0px;
+     margin-left: 0px;
+    }
+    .leadtime p{
+        width: 200px;
+    }
+ }

@@ -1,0 +1,102 @@
+.AddwareHouseContainer{
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    padding: 10px 20px;
+    /* padding-bottom: 5%; */
+    /* flex: 1; */
+    /* height: 500px; */
+    /* overflow-y: scroll; */
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+/* .AddWareHouseHead{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.head2{
+    display: flex;
+    padding: 5px 10px;
+    align-items: center;
+    border-left: 1px solid #cccc;
+} */
+/* .AddWarehousetext p{
+    color:#6f6f6f;
+    font-size: 18px;
+    margin-left: 19px;
+    margin-bottom: -6px;
+    width: 170px;
+} */
+.Createcontent{
+    display: flex;
+    align-items: center;
+}
+.Createcontent p{
+font-size: 16px;
+color: #6f6f6f;
+font-weight: 600;
+/* margin-left: 15px;
+margin-top: 15px; */
+width: 150px;
+}
+.Createcontent input{
+    width: 500px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #6a666a;
+    color: #000;
+    font-size: 15px;
+}
+.details_btns {
+    margin-left: 5px !important;
+}
+.shortname{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* padding:0px 17px; */
+}
+
+.textIn{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.textIn p{
+    color: #6a666a;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    width: 150px;
+}
+.textIn input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #6a666a;
+    width: 500px;
+}
+.Adddropdown{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.Adddropdown p{
+    width: 150px;
+    color: #6a666a;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.Adddropdown select{
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    width: 500px;
+    outline: none;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    
+}
